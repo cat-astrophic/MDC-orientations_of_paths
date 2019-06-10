@@ -63,17 +63,17 @@ def MDC(A):
     
         # Else If alpha == 0
     
-        elif alpha == 0:
-    
-            # And if beta == 0, then color v_{i} uniquely with an new color, c_star, and set alpha and beta to one
+        elif alpha == 0:  
+
+            # And if beta == 0, then color v_{i} uniquely with a new color, c_star, and set alpha and beta to one unless an exception is met
             
             if beta == 0:
                 
                 c_star = new_color(C, F)
+                               
+                # This handles the special case for P_6 and the case of 2-chains of the form (0,2,0)
                 
-                # This handles the exceptions that can occur in some small paths 
-                
-                if length < 7 and beta == 0:
+                if length == 6 or (B[(i+1)%length,(i+2)%length] == 1 and (B[(i+3)%length,(i+2)%length] == 0 or B[(i+3)%length,(i+4)%length] == 0)):
                 
                     alpha = 0
                 
