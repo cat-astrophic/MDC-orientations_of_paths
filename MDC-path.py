@@ -63,7 +63,7 @@ def MDC(A):
     
         # Else If alpha == 0
     
-        elif alpha == 0:  
+        elif alpha == 0:
 
             # And if beta == 0, then color v_{i} uniquely with a new color, c_star, and set alpha and beta to one unless an exception is met
             
@@ -73,7 +73,7 @@ def MDC(A):
                                
                 # This handles the special case for P_6 and the case of 2-chains of the form (0,2,0)
                 
-                if length == 6 or (B[(i+1)%length,(i+2)%length] == 1 and (B[(i+3)%length,(i+2)%length] == 0 or B[(i+3)%length,(i+4)%length] == 0)):
+                if length == 6:
                 
                     alpha = 0
                 
