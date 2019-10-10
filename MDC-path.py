@@ -112,6 +112,11 @@ def MDC(A):
     
     pos = nx.circular_layout(P)
     
+    # Two lines below fix a bug in networkx.circular_layour where the first two vertices appear in the wrong coordinates sometimes
+    
+    pos[1] = pos[0]
+    pos[0] = [1,0]
+    
     # Color the vertices according to the output of the MDC Algorithm
         
     for i in range(len(P)):
@@ -136,6 +141,7 @@ def MDC(A):
     plt.axis('off')
     plt.title('Oriented path of length ' + str(length) + ' with dominator chromatic number ' + str(len(C)))
     plt.show(P)
+    print(pos)
 
 ##############################################################################
 
