@@ -71,7 +71,7 @@ def MDC(A):
                 
                 c_star = new_color(C, F)
                                
-                # This handles the special case for P_6 and the case of 2-chains of the form (0,2,0)
+                # This handles the special case for P_6
                 
                 if length == 6:
                 
