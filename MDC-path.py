@@ -114,8 +114,10 @@ def MDC(A):
     
     # Two lines below fix a bug in networkx.circular_layour where the first two vertices appear in the wrong coordinates sometimes
     
-    pos[1] = pos[0]
-    pos[0] = [1,0]
+    if pos[0][0] != 1:
+    
+        pos[1] = pos[0]
+        pos[0] = [1,0]
     
     # Color the vertices according to the output of the MDC Algorithm
         
