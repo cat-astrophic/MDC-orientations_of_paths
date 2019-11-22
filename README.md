@@ -4,6 +4,8 @@ This script takes a user chosen orientation of a path and outputs a minimum domi
 
 Built in options for path orientations include a directed path, a path with no (internal) vertices of out-degree one, a random orientation, and a custom orientation.
 
+Along with a vertex colored digraph, the algorithm also outputs the colors assigned to each vertex as a list.
+
 ## Future Improvements
 
 Eventually the interface should be improved...drastically...
