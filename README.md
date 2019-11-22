@@ -2,9 +2,11 @@
 
 This script takes a user chosen orientation of a path and outputs a minimum dominator coloring of that oriented path via the algorithm presented in *A Linear Algorithm for Minimum Dominator Colorings of Orientations of Paths*.
 
-Built in options for path orientations include a directed path, a path with no (internal) vertices of out-degree one, a random orientation, and a custom orientation.
+Built in options for path orientations include a directed path, a path with no vertices of out-degree one (depending on the parity of the path length, it is possible that the final vertex has out-degree one), a random orientation, and a custom orientation.
 
 Along with a vertex colored digraph, the algorithm also outputs the colors assigned to each vertex as a list.
+
+The default path length is set to 8 vertices.
 
 ## Future Improvements
 
