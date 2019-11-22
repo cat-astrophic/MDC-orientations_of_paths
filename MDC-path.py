@@ -143,7 +143,7 @@ def MDC(A):
     plt.axis('off')
     plt.title('Oriented path of length ' + str(length) + ' with dominator chromatic number ' + str(len(C)))
     plt.show(P)
-    print(pos)
+    print(F)
 
 ##############################################################################
 
