@@ -203,6 +203,10 @@ def manual_button_pressed(mod):
         
         mod2.title('Gemerate a Minimum Dominator Coloring of a User Generated Oriented Path')
         
+        # Fix the position of the gui
+
+        mod2.geometry('+{}+{}'.format(positionRight, positionDown))
+        
         # Initial text instructions
         
         orient_instructions = tk.Label(mod2, text = 'Choose the orientation of the arc')
@@ -227,6 +231,16 @@ def manual_button_pressed(mod):
 
 mod = tk.Tk()
 
+# Fix the position of the gui
+
+windowWidth = mod.winfo_reqwidth()
+windowHeight = mod.winfo_reqheight()
+
+positionRight = int(mod.winfo_screenwidth()/4 - windowWidth/4)
+positionDown = int(mod.winfo_screenheight()/4 - windowHeight/4)
+
+mod.geometry('+{}+{}'.format(positionRight, positionDown))
+
 # Title
 
 mod.title('Gemerate a Minimum Dominator Coloring of a User Generated Oriented Path')
@@ -236,12 +250,12 @@ mod.title('Gemerate a Minimum Dominator Coloring of a User Generated Oriented Pa
 instructions = tk.Label(mod, text = 'Please select your orientation:', fg = 'black', bg = 'orange', font = 'Helvetica 14 bold', width = 30)
 instructions.place(x = 40, y = 7.5)
 
-# Entry for path length
+# Entry for path length (default length is 8 vertices)
 
 length_text = tk.Label(mod, text = 'Path length:', font = 'Helvetica 11')
 length_text.place(x = 60, y = 41.5)
 length_entry = tk.Entry(mod)
-length_entry.insert(0,1)
+length_entry.insert(0,8)
 length_entry.place(x = 180, y = 42.5)
 
 # Comment for path length entry
