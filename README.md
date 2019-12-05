@@ -10,7 +10,7 @@ The default path length is set to 8 vertices.
 
 ## Future Improvements
 
-Eventually the interface should be improved...drastically...
+Eventually I intend to make the interface prettier.
 
 ## Citation
 
