@@ -14,7 +14,7 @@ Eventually I intend to make the interface prettier.
 
 ## Citation
 
-The paper has been accepted at *TEngineering and Applied Science Letters*. Official citation information will be available once the paper is published, but for now you can cite the preprint version of this paper as follows:
+The paper has been accepted at *Engineering and Applied Science Letters*. Official citation information will be available once the paper is published, but for now you can cite the preprint version of this paper as follows:
 
 @article{cary2019linear,\
 &nbsp;&nbsp;&nbsp;&nbsp;title = {A Linear Algorithm for Minimum Dominator Colorings of Orientations of Paths},\
