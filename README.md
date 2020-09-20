@@ -14,11 +14,22 @@ Eventually I intend to make the interface prettier.
 
 ## Citation
 
-The paper has been accepted at *Engineering and Applied Science Letters*. Official citation information will be available once the paper is published, but for now you can cite the preprint version of this paper as follows:
+### APA:
 
-@article{cary2019linear,\
+Cary, M. (2020). A Linear Algorithm for Minimum Dominator Colorings of Orientations of Paths. *Engineering and Applied Science Letters*, 3(3), 10-14.
+
+### MLA:
+
+Cary, Michael. "A Linear Algorithm for Minimum Dominator Colorings of Orientations of Paths." *Engineering and Applied Science Letters* 3.3 (2020) 10-14.
+
+### Bibtex:
+
+@article{cary2020linear,\&nbsp;&nbsp;&nbsp;&nbsp;year = {2020}\
 &nbsp;&nbsp;&nbsp;&nbsp;title = {A Linear Algorithm for Minimum Dominator Colorings of Orientations of Paths},\
 &nbsp;&nbsp;&nbsp;&nbsp;author = {Cary, Michael},\
-&nbsp;&nbsp;&nbsp;&nbsp;journal = {arXiv preprint arXiv:1906.04523},\
-&nbsp;&nbsp;&nbsp;&nbsp;year = {2019}\
+&nbsp;&nbsp;&nbsp;&nbsp;journal = {Engineering and Applied Science Letters},\
+&nbsp;&nbsp;&nbsp;&nbsp;volume = {3}\
+&nbsp;&nbsp;&nbsp;&nbsp;issue = {3}\
+&nbsp;&nbsp;&nbsp;&nbsp;pages = {10--14}\
+&nbsp;&nbsp;&nbsp;&nbsp;year = {2020}\
 }
