@@ -25,12 +25,12 @@ Cary, Michael. "A Linear Algorithm for Minimum Dominator Colorings of Orientatio
 ### Bibtex:
 
 @article{cary2020linear,\
-&nbsp;&nbsp;&nbsp;&nbsp;year = {2020}\
+&nbsp;&nbsp;&nbsp;&nbsp;year = {2020},\
 &nbsp;&nbsp;&nbsp;&nbsp;title = {A Linear Algorithm for Minimum Dominator Colorings of Orientations of Paths},\
 &nbsp;&nbsp;&nbsp;&nbsp;author = {Cary, Michael},\
 &nbsp;&nbsp;&nbsp;&nbsp;journal = {Engineering and Applied Science Letters},\
-&nbsp;&nbsp;&nbsp;&nbsp;volume = {3}\
-&nbsp;&nbsp;&nbsp;&nbsp;issue = {3}\
-&nbsp;&nbsp;&nbsp;&nbsp;pages = {10--14}\
+&nbsp;&nbsp;&nbsp;&nbsp;volume = {3},\
+&nbsp;&nbsp;&nbsp;&nbsp;issue = {3},\
+&nbsp;&nbsp;&nbsp;&nbsp;pages = {10--14},\
 &nbsp;&nbsp;&nbsp;&nbsp;year = {2020}\
 }
